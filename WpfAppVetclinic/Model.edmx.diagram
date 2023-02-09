@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8d0bc5755bf04bc19cd10127e2fb4c37" Name="Diagram1">
+        <EntityTypeShape EntityType="DostavkaModel.orderProducts" Width="1.5" PointX="3" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DostavkaModel.Orders" Width="1.5" PointX="5.25" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DostavkaModel.Producer" Width="1.5" PointX="1.5" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DostavkaModel.Products" Width="1.5" PointX="0.75" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DostavkaModel.Roles" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DostavkaModel.Stuffs" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DostavkaModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DostavkaModel.Users" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <AssociationConnector Association="DostavkaModel.FK__orderProd__produ__5629CD9C" ManuallyRouted="false" />
+        <AssociationConnector Association="DostavkaModel.FK__Orders__orderPro__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="DostavkaModel.FK__Orders__stuffID__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="DostavkaModel.FK__Orders__userID__59FA5E80" ManuallyRouted="false" />
+        <AssociationConnector Association="DostavkaModel.FK__Products__produc__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="DostavkaModel.FK__Stuffs__stuffRol__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="DostavkaModel.FK__Users__userRole__4BAC3F29" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
