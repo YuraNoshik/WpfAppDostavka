@@ -22,7 +22,7 @@
         </Grid.ColumnDefinitions>
         
         <Grid Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" Background="White"/>
-        <Grid Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" Background="White"/>
+        <Grid Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" Background="White" Loaded="Grid_Loaded"/>
         <Grid Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="4" Background="White"/>
 
         <ec:Captcha x:Name="Captcha" Width="150" Height="150" Grid.Row="1" Grid.Column="1"/>
@@ -57,10 +57,10 @@
         <Button x:Name="buttonReCaptcha" Width="30" Height="30" Grid.Row="1" Grid.Column="1"
                 Margin="0 190 0 0" Click="buttonReCaptcha_Click"/>
         <Button x:Name="buttonExit" Content="Выход" Width="95" Height="65" Click="buttonExit_Click"
-                Grid.Row="0" Grid.Column="3" FontFamily="Comic Sans MS" FontSize="18"/>
-        <Button x:Name="buttonLogin" Content="Войти" Width="120" Height="70" Margin="0 0 0 0" 
+                Grid.Row="0" Grid.Column="3" FontFamily="Comic Sans MS" FontSize="17"/>
+        <Button x:Name="buttonLogin" Content="Войти" Width="95" Height="65" Margin="0 0 0 0" 
                 Grid.Row="2" Grid.Column="3" HorizontalAlignment="Center" FontFamily="Comic Sans MS"
-                FontSize="24" Click="buttonLogin_Click"/>
+                FontSize="17" Click="buttonLogin_Click"/>
 
         
     </Grid>
